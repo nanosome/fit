@@ -9,11 +9,11 @@ package nanosome.fit {
 	/**
 	 * @author mh
 	 */
-	public class DisplayObjectLayoutableWrapper implements ILayoutable {
+	public class EventWrapper implements ILayoutable {
 		
 		private var _target : DisplayObject;
 		
-		public function DisplayObjectLayoutableWrapper() {}
+		public function EventWrapper() {}
 		
 		public function resize( width: Number, height: Number ): void {}
 		
