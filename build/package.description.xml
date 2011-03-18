@@ -1,0 +1,21 @@
+<overviews>
+	<all-packages>
+		<description><![CDATA[
+			<div id="shortIntroduction">
+				<p>
+					The nanosome-fit project is a layout system that consists of
+					Layouts and Layoutables.
+				</p>
+			</div> 
+		]]></description>
+	</all-packages>
+	<packages>
+		<package name="nanosome.fit" >
+			<shortDescription><![CDATA[
+				Contains all basic layout classes.
+			]]></shortDescription>
+			<description><![CDATA[
+			]]></description>
+		</package>
+	</packages>
+</overviews>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Nanosome Fit">
+	<description>
+		Build file specific to the fit project of nanosome
+	</description>
+	
+	<property file="local.properties"/>
+	<property file="project.properties"/>
+	
+	<import file="global/global.ant" />
+	
+	<target name="copy-dependencies-to-build-path" depends="init">
+		<copy file="../lib/nanosome-util/nanosome-util.swc" todir="${build.lib.path}"/>
+	</target>
+</project>
